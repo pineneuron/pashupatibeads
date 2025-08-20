@@ -131,7 +131,7 @@ export default function Home() {
                 <div className="inline-flex items-center px-4 lg:px-6 py-2 lg:py-3 bg-white/10 backdrop-blur-xl border border-white/20 rounded-full transform transition-all duration-300 hover:scale-105 hover:bg-white/15 hover:border-white/30 shadow-lg">
                   <div className="w-2 h-2 lg:w-3 lg:h-3 bg-amber-400 rounded-full mr-2 lg:mr-3 animate-pulse"></div>
                   <span className="text-white font-medium text-sm lg:text-base">
-                    Coming Soon - Early Access Available
+                    Coming Soon - Pre-Orders Available
                   </span>
                   <div className="ml-2 lg:ml-3 w-1 h-1 bg-amber-400 rounded-full animate-ping"></div>
                 </div>
@@ -213,10 +213,10 @@ export default function Home() {
                     <div className="relative z-10">
                       <div className="text-center mb-6 lg:mb-8">
                         <h3 className="text-2xl sm:text-3xl font-bold text-white mb-2 lg:mb-3">
-                          Get Early Access
+                          Product Enquiry
                         </h3>
                         <p className="text-white/70 text-sm lg:text-base">
-                          Join the spiritual journey first
+                          Get details about our rudraksha collection
                         </p>
                       </div>
 
@@ -259,7 +259,7 @@ export default function Home() {
                           value={formData.message}
                           onChange={handleInputChange}
                           className="min-h-[80px] lg:min-h-[100px] px-3 lg:px-4 py-2 lg:py-3 text-sm lg:text-base border-2 border-white/20 focus:border-amber-400 bg-white/10 backdrop-blur-sm rounded-lg lg:rounded-xl resize-none transition-all duration-300 focus:ring-4 focus:ring-amber-400/20 focus:scale-[1.02] text-white placeholder-white/50 hover:border-white/30 hover:bg-white/15"
-                          placeholder="Message / Enquiry"
+                          placeholder="Product Enquiry / Order Details"
                         />
 
                         <Button
@@ -278,7 +278,7 @@ export default function Home() {
                             ) : (
                               <div className="flex items-center justify-center">
                                 <Send className="w-4 h-4 lg:w-5 lg:h-5 mr-2" />
-                                <span>Get Early Access</span>
+                                <span>Send Enquiry</span>
                               </div>
                             )}
                           </div>
